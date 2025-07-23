@@ -35,3 +35,15 @@
                 navbar.classList.remove('scrolled');
             }
         });
+        
+        function webdarigithub() {
+    // URL tujuan
+    var urlTujuan = "https://alisa-fadhli.github.io/web-perkenalan-diri-sendiri-smkn1-spt/"; // <-- ini adalah URL tujuan.
+
+    // Tampilkan popup konfirmasi
+    if (confirm("Anda yakin ingin meninggalkan halaman ini? anda akan diarahkan kehalaman dengan tampilan web yang sama! anda akan diarahkan ke https://alisa-fadhli.github.io/web-perkenalan-diri-sendiri-smkn1-spt")) {
+        // Jika "OK", arahkan ke URL tujuan
+        window.location.href = urlTujuan;
+    }
+    // Jika "Batal", tidak terjadi apa-apa
+}
